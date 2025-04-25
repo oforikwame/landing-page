@@ -7,9 +7,9 @@
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-     <header>
-        <h1>Elinam</h1>
-        <nav>
+     <header class="header">
+        <div class="logo">Elinam</div>
+        <nav class="nav">
            <ul>
             <li><a href="#about">About Me</a></li>
             <li><a href="#project">Projects</a></li>
@@ -18,19 +18,69 @@
         </nav>
         <h2> </h2>
      </header>
+
+
+     <!--Hero Section-->
      <section class="hero">
+        <div class="hero-text">
         <h1> Hi I'm Elinam</h1>
         <p>I’m an aspiring software engineer passionate about creating efficient and user-friendly solutions. <br>I specialize in Java and Python. Explore my projects and get in touch!.</br>
         </p>
+        <a href="#projects"><button>View My Projects</button></a>
+        </div>
+        <div class="hero-img">
+            <img src="https://via.placeholder.com/400" alt="Elinam's photo" />
+    
+        </div>
      </section>
 
- <h2>Featured Projects</h2>
+ <!--Project Section-->
+ <section class="projects" id="projects">
+    <h2>Featured Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <img src="https://via.placeholder.com/150" alt="Project thumbnail">
+        <p>Landing Page</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/150" alt="Project thumbnail">
+        <p>Calculator</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/150" alt="Project thumbnail">
+        <p>To-Do List</p>
+      </div>
+      <div class="project-card">
+        <img src="https://via.placeholder.com/150" alt="Project thumbnail">
+        <p>Form Page</p>
+      </div>
+    </div>
+  </section>
 
 
- <p>"Programming is not just about writing code, it's about creating solutions to real-world problems. It’s the art of building something from nothing, constantly learning, and adapting to challenges. The best programmers are those who embrace the journey of continuous growth and innovation, using technology to transform ideas into reality." — Unknown</p>
-  <footer>
+  <!--About Me-->
+<section class="about" id="about">
+    <blockquote>
+        “I'm passionate about building responsive, user-friendly websites and learning something new every day.” 
+    </blockquote>
+    <p class="quote-author">- Elinam</p>
+</section>
+
+
+<!--Contact Section-->
+<section class="contact-cta" id="contact">
+    <div class="cta-text">
+        <h3>Let's build something amazing together.</h3>
+        <p>Contact me at<strong>elinam@example.com</strong></p>
+    </div>
+    <div class="cta-button">
+        <a href="mailto:elinam@example.com"><button>Contact Me</button></a>
+    </div>
+</section>
+ 
+<!--Footer-->
+<footer class="footer">
     <p>© 2025 Elinam. All rights reserved.</p>
-    <p><a href="#contact">Contact Me</a> | <a href="#about">About Me</a></p>
-  </footer>
+</footer>
 </body>
 </html>
